@@ -54,7 +54,7 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task0.V29
             this.groupBoxTask_SVV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBoxTask_SVV.Location = new System.Drawing.Point(12, 30);
             this.groupBoxTask_SVV.Name = "groupBoxTask_SVV";
-            this.groupBoxTask_SVV.Size = new System.Drawing.Size(586, 201);
+            this.groupBoxTask_SVV.Size = new System.Drawing.Size(560, 201);
             this.groupBoxTask_SVV.TabIndex = 0;
             this.groupBoxTask_SVV.TabStop = false;
             this.groupBoxTask_SVV.Text = "Условие";
@@ -62,7 +62,7 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task0.V29
             // pictureBoxFormula_SVV
             // 
             this.pictureBoxFormula_SVV.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxFormula_SVV.Image")));
-            this.pictureBoxFormula_SVV.Location = new System.Drawing.Point(455, 23);
+            this.pictureBoxFormula_SVV.Location = new System.Drawing.Point(417, 23);
             this.pictureBoxFormula_SVV.Name = "pictureBoxFormula_SVV";
             this.pictureBoxFormula_SVV.Size = new System.Drawing.Size(112, 59);
             this.pictureBoxFormula_SVV.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -80,7 +80,8 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task0.V29
             this.textBoxTask_SVV.ReadOnly = true;
             this.textBoxTask_SVV.Size = new System.Drawing.Size(381, 163);
             this.textBoxTask_SVV.TabIndex = 0;
-            this.textBoxTask_SVV.Text = "Вычислить выражение по формуле";
+            this.textBoxTask_SVV.Text = "Дано выражение. Вычислить его значение при x = 3,\r\nрезультат вывести в TextBox.\r\n" +
+    "Округлить до 3 знаков после запятой.";
             // 
             // groupBoxDano_SVV
             // 
@@ -89,7 +90,7 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task0.V29
             this.groupBoxDano_SVV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBoxDano_SVV.Location = new System.Drawing.Point(12, 237);
             this.groupBoxDano_SVV.Name = "groupBoxDano_SVV";
-            this.groupBoxDano_SVV.Size = new System.Drawing.Size(354, 118);
+            this.groupBoxDano_SVV.Size = new System.Drawing.Size(333, 118);
             this.groupBoxDano_SVV.TabIndex = 1;
             this.groupBoxDano_SVV.TabStop = false;
             this.groupBoxDano_SVV.Text = "Ввод данных";
@@ -117,9 +118,9 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task0.V29
             this.groupBoxResult_SVV.Controls.Add(this.labelResult_SVV);
             this.groupBoxResult_SVV.Controls.Add(this.textBoxResult_SVV);
             this.groupBoxResult_SVV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBoxResult_SVV.Location = new System.Drawing.Point(383, 238);
+            this.groupBoxResult_SVV.Location = new System.Drawing.Point(351, 238);
             this.groupBoxResult_SVV.Name = "groupBoxResult_SVV";
-            this.groupBoxResult_SVV.Size = new System.Drawing.Size(215, 117);
+            this.groupBoxResult_SVV.Size = new System.Drawing.Size(221, 117);
             this.groupBoxResult_SVV.TabIndex = 2;
             this.groupBoxResult_SVV.TabStop = false;
             this.groupBoxResult_SVV.Text = "Вывод данных ";
@@ -144,9 +145,9 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task0.V29
             // buttonDone_SVV
             // 
             this.buttonDone_SVV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonDone_SVV.Location = new System.Drawing.Point(429, 359);
+            this.buttonDone_SVV.Location = new System.Drawing.Point(398, 360);
             this.buttonDone_SVV.Name = "buttonDone_SVV";
-            this.buttonDone_SVV.Size = new System.Drawing.Size(168, 38);
+            this.buttonDone_SVV.Size = new System.Drawing.Size(175, 38);
             this.buttonDone_SVV.TabIndex = 3;
             this.buttonDone_SVV.Text = "Выполнить";
             this.buttonDone_SVV.UseVisualStyleBackColor = true;
@@ -155,7 +156,7 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task0.V29
             // buttonHelp_SVV
             // 
             this.buttonHelp_SVV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonHelp_SVV.Location = new System.Drawing.Point(383, 360);
+            this.buttonHelp_SVV.Location = new System.Drawing.Point(351, 361);
             this.buttonHelp_SVV.Name = "buttonHelp_SVV";
             this.buttonHelp_SVV.Size = new System.Drawing.Size(41, 37);
             this.buttonHelp_SVV.TabIndex = 4;
@@ -167,7 +168,7 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task0.V29
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(617, 412);
+            this.ClientSize = new System.Drawing.Size(585, 412);
             this.Controls.Add(this.buttonHelp_SVV);
             this.Controls.Add(this.buttonDone_SVV);
             this.Controls.Add(this.groupBoxResult_SVV);
