@@ -81,7 +81,6 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task0.V29
             this.textBoxTask_SVV.Size = new System.Drawing.Size(381, 163);
             this.textBoxTask_SVV.TabIndex = 0;
             this.textBoxTask_SVV.Text = "Вычислить выражение по формуле";
-            
             // 
             // groupBoxDano_SVV
             // 
