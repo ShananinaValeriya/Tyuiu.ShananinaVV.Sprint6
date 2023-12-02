@@ -201,6 +201,8 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task1.V19
             this.Controls.Add(this.groupBoxDone_SVV);
             this.Controls.Add(this.groupBoxTask1_SVV);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 1 | Вариант 19 | Шананина В.В.";
