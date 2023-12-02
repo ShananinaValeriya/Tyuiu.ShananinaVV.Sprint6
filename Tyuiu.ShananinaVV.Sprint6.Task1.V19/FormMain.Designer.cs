@@ -60,6 +60,7 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task1.V19
             this.groupBoxTask1_SVV.TabIndex = 0;
             this.groupBoxTask1_SVV.TabStop = false;
             this.groupBoxTask1_SVV.Text = "Условие";
+            this.groupBoxTask1_SVV.Enter += new System.EventHandler(this.groupBoxTask1_SVV_Enter);
             // 
             // pictureBoxFormula_SVV
             // 
