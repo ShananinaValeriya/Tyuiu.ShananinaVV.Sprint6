@@ -41,20 +41,11 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task0.V29
             }
         }
 
-        private void pictureBoxFormula_SVV_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonHelp_SVV_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Таск 0 выполнила студентка группы ИСТНб-23-1 Шананина Валерия Викторовна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void FormMain_Load(object sender, EventArgs e)
-        {
-
-        }
-
+        
     }
 }
