@@ -60,12 +60,11 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task1.V19
             this.groupBoxTask1_SVV.TabIndex = 0;
             this.groupBoxTask1_SVV.TabStop = false;
             this.groupBoxTask1_SVV.Text = "Условие";
-            
             // 
             // pictureBoxFormula_SVV
             // 
             this.pictureBoxFormula_SVV.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxFormula_SVV.Image")));
-            this.pictureBoxFormula_SVV.Location = new System.Drawing.Point(20, 91);
+            this.pictureBoxFormula_SVV.Location = new System.Drawing.Point(20, 138);
             this.pictureBoxFormula_SVV.Name = "pictureBoxFormula_SVV";
             this.pictureBoxFormula_SVV.Size = new System.Drawing.Size(308, 39);
             this.pictureBoxFormula_SVV.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -76,14 +75,13 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task1.V19
             // 
             this.textBoxUslovie_SVV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxUslovie_SVV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxUslovie_SVV.Location = new System.Drawing.Point(20, 36);
+            this.textBoxUslovie_SVV.Location = new System.Drawing.Point(20, 23);
             this.textBoxUslovie_SVV.Multiline = true;
             this.textBoxUslovie_SVV.Name = "textBoxUslovie_SVV";
             this.textBoxUslovie_SVV.ReadOnly = true;
             this.textBoxUslovie_SVV.Size = new System.Drawing.Size(497, 233);
             this.textBoxUslovie_SVV.TabIndex = 0;
-            this.textBoxUslovie_SVV.Text = "Протабулировать функцию на заданном диапазоне. \r\nРезультат вывести в виде таблицы" +
-    ". ";
+            this.textBoxUslovie_SVV.Text = resources.GetString("textBoxUslovie_SVV.Text");
             // 
             // groupBoxDone_SVV
             // 

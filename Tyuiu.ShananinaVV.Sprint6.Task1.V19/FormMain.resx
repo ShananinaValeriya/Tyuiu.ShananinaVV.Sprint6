@@ -202,4 +202,11 @@
         DwqhFRQUjBgUQisoKBgxKIRWUFAwYlAIraCgYIQgpf8A6gpcRfQiqHkAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="textBoxUslovie_SVV.Text" xml:space="preserve">
+    <value>Протабулировать функцию на заданном диапазоне.
+Произвести проверку деления на ноль. При делении на
+ноль вернуть значение 0.
+Результат вывести в TextBox. 
+Значения окргулить до двух знаков после запятой. </value>
+  </data>
 </root>
