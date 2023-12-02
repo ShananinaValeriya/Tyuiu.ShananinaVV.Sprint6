@@ -13,8 +13,8 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task0.V29.Test
 
         {
             DataService ds = new DataService();
-            double res = ds.Calculate(2);
-            double wait = 0.438;
+            double res = ds.Calculate(3);
+            double wait = 0.722;
             Assert.AreEqual(wait, res);
         }
     }

@@ -109,6 +109,7 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task0.V29
             this.textBoxVarX_SVV.Name = "textBoxVarX_SVV";
             this.textBoxVarX_SVV.Size = new System.Drawing.Size(247, 24);
             this.textBoxVarX_SVV.TabIndex = 0;
+            this.textBoxVarX_SVV.Text = "3";
             this.textBoxVarX_SVV.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxVarX_SVV_KeyPress);
             // 
             // groupBoxResult_SVV
