@@ -74,5 +74,23 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task2.V21
             MessageBox.Show("Таск 2 выполнила студентка группы ИСТНб-23-1 Шананина Валерия Викторовна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
+
+        private void textBoxStart_SVV_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar <= 47 || e.KeyChar >= 58) && (e.KeyChar != ',') && (e.KeyChar != 8) && (e.KeyChar != '-'))
+            {
+                e.Handled = true;
+            }
+
+        }
+
+        private void textBoxStop_SVV_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar <= 47 || e.KeyChar >= 58) && (e.KeyChar != ',') && (e.KeyChar != 8) && (e.KeyChar != '-'))
+            {
+                e.Handled = true;
+            }
+
+        }
     }
 }
