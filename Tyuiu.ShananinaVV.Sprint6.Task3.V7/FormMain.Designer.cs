@@ -34,10 +34,10 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task3.V7
             this.dataGridViewMatrix_SVV = new System.Windows.Forms.DataGridView();
             this.textBoxDone_SVV = new System.Windows.Forms.TextBox();
             this.groupBoxResult_SVV = new System.Windows.Forms.GroupBox();
+            this.dataGridViewResult_SVV = new System.Windows.Forms.DataGridView();
             this.labelResult_SVV = new System.Windows.Forms.Label();
             this.buttonResult_SVV = new System.Windows.Forms.Button();
             this.buttonHelp_SVV = new System.Windows.Forms.Button();
-            this.dataGridViewResult_SVV = new System.Windows.Forms.DataGridView();
             this.groupBoxDone_SVV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMatrix_SVV)).BeginInit();
             this.groupBoxResult_SVV.SuspendLayout();
@@ -92,6 +92,18 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task3.V7
             this.groupBoxResult_SVV.TabStop = false;
             this.groupBoxResult_SVV.Text = "Вывод данных";
             // 
+            // dataGridViewResult_SVV
+            // 
+            this.dataGridViewResult_SVV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewResult_SVV.ColumnHeadersVisible = false;
+            this.dataGridViewResult_SVV.Location = new System.Drawing.Point(18, 55);
+            this.dataGridViewResult_SVV.Name = "dataGridViewResult_SVV";
+            this.dataGridViewResult_SVV.RowHeadersVisible = false;
+            this.dataGridViewResult_SVV.RowHeadersWidth = 51;
+            this.dataGridViewResult_SVV.RowTemplate.Height = 24;
+            this.dataGridViewResult_SVV.Size = new System.Drawing.Size(234, 233);
+            this.dataGridViewResult_SVV.TabIndex = 3;
+            // 
             // labelResult_SVV
             // 
             this.labelResult_SVV.AutoSize = true;
@@ -114,6 +126,7 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task3.V7
             // 
             // buttonHelp_SVV
             // 
+            this.buttonHelp_SVV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonHelp_SVV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonHelp_SVV.Location = new System.Drawing.Point(739, 332);
             this.buttonHelp_SVV.Name = "buttonHelp_SVV";
@@ -122,18 +135,6 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task3.V7
             this.buttonHelp_SVV.Text = "?";
             this.buttonHelp_SVV.UseVisualStyleBackColor = true;
             this.buttonHelp_SVV.Click += new System.EventHandler(this.buttonHelp_SVV_Click);
-            // 
-            // dataGridViewResult_SVV
-            // 
-            this.dataGridViewResult_SVV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewResult_SVV.ColumnHeadersVisible = false;
-            this.dataGridViewResult_SVV.Location = new System.Drawing.Point(18, 55);
-            this.dataGridViewResult_SVV.Name = "dataGridViewResult_SVV";
-            this.dataGridViewResult_SVV.RowHeadersVisible = false;
-            this.dataGridViewResult_SVV.RowHeadersWidth = 51;
-            this.dataGridViewResult_SVV.RowTemplate.Height = 24;
-            this.dataGridViewResult_SVV.Size = new System.Drawing.Size(234, 233);
-            this.dataGridViewResult_SVV.TabIndex = 3;
             // 
             // FormMain
             // 
