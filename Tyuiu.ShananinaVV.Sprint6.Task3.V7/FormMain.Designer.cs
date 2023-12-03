@@ -91,7 +91,6 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task3.V7
             this.groupBoxResult_SVV.TabIndex = 1;
             this.groupBoxResult_SVV.TabStop = false;
             this.groupBoxResult_SVV.Text = "Вывод данных";
-            this.groupBoxResult_SVV.Enter += new System.EventHandler(this.groupBoxResult_SVV_Enter);
             // 
             // labelResult_SVV
             // 

@@ -81,43 +81,9 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task3.V7
         {
             MessageBox.Show("Таск 3 выполнила студентка группы ИСТНб-23-1 Шананина Валерия Викторовна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-
-        private void groupBoxResult_SVV_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBoxResult_SVV_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
 
 
-        //private void label1_Click(object sender, EventArgs e)
-        //{
-
-       // }
-
-        //private void groupBox2_Enter(object sender, EventArgs e)
-        //{
-    //
-        //}
-
-       // private void button3_Click(object sender, EventArgs e)
-        //{
-
-        //}
-
-        //private void textBoxResult_SVV_TextChanged(object sender, EventArgs e)
-        //{
-
-        //}
-
-        //private void textBoxDone_SVV_TextChanged(object sender, EventArgs e)
-        //{
-
-        //}
    
 
