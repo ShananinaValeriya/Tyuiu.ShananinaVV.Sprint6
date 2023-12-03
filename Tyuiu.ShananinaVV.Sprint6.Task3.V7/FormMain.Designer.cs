@@ -149,7 +149,7 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task3.V7
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Спринт 6 | Таск 4 | Вариант 7 | Шананина В.В.";
+            this.Text = "Спринт 6 | Таск 3 | Вариант 7 | Шананина В.В.";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.groupBoxDone_SVV.ResumeLayout(false);
             this.groupBoxDone_SVV.PerformLayout();
