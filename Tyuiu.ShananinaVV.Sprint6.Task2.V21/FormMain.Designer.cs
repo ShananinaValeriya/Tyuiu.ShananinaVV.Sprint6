@@ -30,9 +30,9 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task2.V21
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBoxTask2_SVV = new System.Windows.Forms.GroupBox();
             this.pictureBoxFormula_SVV = new System.Windows.Forms.PictureBox();
             this.textBoxUslovie_SVV = new System.Windows.Forms.TextBox();
@@ -103,18 +103,18 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task2.V21
             // 
             // chartFunction_SVV
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chartFunction_SVV.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chartFunction_SVV.Legends.Add(legend2);
+            chartArea1.Name = "ChartArea1";
+            this.chartFunction_SVV.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartFunction_SVV.Legends.Add(legend1);
             this.chartFunction_SVV.Location = new System.Drawing.Point(199, 48);
             this.chartFunction_SVV.Name = "chartFunction_SVV";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series2.IsVisibleInLegend = false;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chartFunction_SVV.Series.Add(series2);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.IsVisibleInLegend = false;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartFunction_SVV.Series.Add(series1);
             this.chartFunction_SVV.Size = new System.Drawing.Size(480, 296);
             this.chartFunction_SVV.TabIndex = 3;
             this.chartFunction_SVV.Text = "chart1";
@@ -243,6 +243,7 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task2.V21
             this.Controls.Add(this.groupBoxResult_SVV);
             this.Controls.Add(this.groupBoxTask2_SVV);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
