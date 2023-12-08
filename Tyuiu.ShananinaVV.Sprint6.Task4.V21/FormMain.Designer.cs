@@ -29,11 +29,11 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task4.V21
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title4 = new System.Windows.Forms.DataVisualization.Charting.Title();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.panelOne_SVV = new System.Windows.Forms.Panel();
             this.buttonDone_SVV = new System.Windows.Forms.Button();
             this.buttonSave_SVV = new System.Windows.Forms.Button();
@@ -43,6 +43,7 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task4.V21
             this.textBoxStop_SVV = new System.Windows.Forms.TextBox();
             this.textBoxStart_SVV = new System.Windows.Forms.TextBox();
             this.groupBoxUslovie_SVV = new System.Windows.Forms.GroupBox();
+            this.pictureBoxForm_SVV = new System.Windows.Forms.PictureBox();
             this.textBoxDone_SVV = new System.Windows.Forms.TextBox();
             this.buttonHelp_SVV = new System.Windows.Forms.Button();
             this.panelTwo_SVV = new System.Windows.Forms.Panel();
@@ -51,15 +52,14 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task4.V21
             this.panelThree_SVV = new System.Windows.Forms.Panel();
             this.chartFunction_SVV = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.splitterOne_SVV = new System.Windows.Forms.Splitter();
-            this.pictureBoxForm_SVV = new System.Windows.Forms.PictureBox();
             this.panelOne_SVV.SuspendLayout();
             this.groupBoxDano_SVV.SuspendLayout();
             this.groupBoxUslovie_SVV.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxForm_SVV)).BeginInit();
             this.panelTwo_SVV.SuspendLayout();
             this.groupBoxOne_SVV.SuspendLayout();
             this.panelThree_SVV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartFunction_SVV)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxForm_SVV)).BeginInit();
             this.SuspendLayout();
             // 
             // panelOne_SVV
@@ -157,6 +157,16 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task4.V21
             this.groupBoxUslovie_SVV.TabStop = false;
             this.groupBoxUslovie_SVV.Text = "Условие:";
             // 
+            // pictureBoxForm_SVV
+            // 
+            this.pictureBoxForm_SVV.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxForm_SVV.Image")));
+            this.pictureBoxForm_SVV.Location = new System.Drawing.Point(5, 104);
+            this.pictureBoxForm_SVV.Name = "pictureBoxForm_SVV";
+            this.pictureBoxForm_SVV.Size = new System.Drawing.Size(347, 40);
+            this.pictureBoxForm_SVV.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBoxForm_SVV.TabIndex = 3;
+            this.pictureBoxForm_SVV.TabStop = false;
+            // 
             // textBoxDone_SVV
             // 
             this.textBoxDone_SVV.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -221,27 +231,27 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task4.V21
             // 
             // chartFunction_SVV
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chartFunction_SVV.ChartAreas.Add(chartArea4);
+            chartArea1.Name = "ChartArea1";
+            this.chartFunction_SVV.ChartAreas.Add(chartArea1);
             this.chartFunction_SVV.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend4.Name = "Legend1";
-            this.chartFunction_SVV.Legends.Add(legend4);
+            legend1.Name = "Legend1";
+            this.chartFunction_SVV.Legends.Add(legend1);
             this.chartFunction_SVV.Location = new System.Drawing.Point(0, 0);
             this.chartFunction_SVV.Name = "chartFunction_SVV";
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series4.IsVisibleInLegend = false;
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            this.chartFunction_SVV.Series.Add(series4);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.IsVisibleInLegend = false;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartFunction_SVV.Series.Add(series1);
             this.chartFunction_SVV.Size = new System.Drawing.Size(997, 437);
             this.chartFunction_SVV.TabIndex = 0;
             this.chartFunction_SVV.Text = "chart1";
-            title4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            title4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            title4.Name = "TitleCos";
-            title4.Text = "График функции (2cos(x) + 2) / (2x - 1) + cos(x) - 5x + 3 ";
-            this.chartFunction_SVV.Titles.Add(title4);
+            title1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            title1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            title1.Name = "TitleCos";
+            title1.Text = "График функции (2cos(x) + 2) / (2x - 1) + cos(x) - 5x + 3 ";
+            this.chartFunction_SVV.Titles.Add(title1);
             // 
             // splitterOne_SVV
             // 
@@ -250,16 +260,6 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task4.V21
             this.splitterOne_SVV.Size = new System.Drawing.Size(3, 437);
             this.splitterOne_SVV.TabIndex = 1;
             this.splitterOne_SVV.TabStop = false;
-            // 
-            // pictureBoxForm_SVV
-            // 
-            this.pictureBoxForm_SVV.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxForm_SVV.Image")));
-            this.pictureBoxForm_SVV.Location = new System.Drawing.Point(5, 104);
-            this.pictureBoxForm_SVV.Name = "pictureBoxForm_SVV";
-            this.pictureBoxForm_SVV.Size = new System.Drawing.Size(347, 40);
-            this.pictureBoxForm_SVV.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBoxForm_SVV.TabIndex = 3;
-            this.pictureBoxForm_SVV.TabStop = false;
             // 
             // FormMain
             // 
@@ -279,12 +279,12 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task4.V21
             this.groupBoxDano_SVV.PerformLayout();
             this.groupBoxUslovie_SVV.ResumeLayout(false);
             this.groupBoxUslovie_SVV.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxForm_SVV)).EndInit();
             this.panelTwo_SVV.ResumeLayout(false);
             this.groupBoxOne_SVV.ResumeLayout(false);
             this.groupBoxOne_SVV.PerformLayout();
             this.panelThree_SVV.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chartFunction_SVV)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxForm_SVV)).EndInit();
             this.ResumeLayout(false);
 
         }
