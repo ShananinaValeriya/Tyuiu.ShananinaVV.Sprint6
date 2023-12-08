@@ -83,6 +83,5 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task4.V21
         {
             MessageBox.Show("Таск 4 выполнила студентка группы ИСТНб-23-1 Шананина Валерия Викторовна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-
     }
 }
