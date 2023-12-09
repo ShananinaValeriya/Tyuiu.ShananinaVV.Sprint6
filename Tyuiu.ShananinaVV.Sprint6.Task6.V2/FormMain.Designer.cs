@@ -71,7 +71,8 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task6.V2
             // buttonHelp_SVV
             // 
             this.buttonHelp_SVV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonHelp_SVV.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonHelp_SVV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonHelp_SVV.ForeColor = System.Drawing.Color.Silver;
             this.buttonHelp_SVV.Image = ((System.Drawing.Image)(resources.GetObject("buttonHelp_SVV.Image")));
             this.buttonHelp_SVV.Location = new System.Drawing.Point(684, 6);
             this.buttonHelp_SVV.Name = "buttonHelp_SVV";
@@ -85,7 +86,8 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task6.V2
             // 
             this.buttonDone_SVV.BackColor = System.Drawing.SystemColors.Control;
             this.buttonDone_SVV.Enabled = false;
-            this.buttonDone_SVV.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonDone_SVV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonDone_SVV.ForeColor = System.Drawing.Color.Silver;
             this.buttonDone_SVV.Image = ((System.Drawing.Image)(resources.GetObject("buttonDone_SVV.Image")));
             this.buttonDone_SVV.Location = new System.Drawing.Point(118, 6);
             this.buttonDone_SVV.Name = "buttonDone_SVV";
@@ -98,8 +100,9 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task6.V2
             // 
             // buttonOpenFile_SVV
             // 
-            this.buttonOpenFile_SVV.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonOpenFile_SVV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonOpenFile_SVV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonOpenFile_SVV.ForeColor = System.Drawing.Color.Silver;
             this.buttonOpenFile_SVV.Image = ((System.Drawing.Image)(resources.GetObject("buttonOpenFile_SVV.Image")));
             this.buttonOpenFile_SVV.Location = new System.Drawing.Point(9, 6);
             this.buttonOpenFile_SVV.Name = "buttonOpenFile_SVV";
