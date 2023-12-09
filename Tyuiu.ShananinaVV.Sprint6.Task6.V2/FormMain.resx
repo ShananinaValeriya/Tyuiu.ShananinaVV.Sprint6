@@ -217,7 +217,7 @@
 </value>
   </data>
   <data name="textBoxUslovie_SVV.Text" xml:space="preserve">
-    <value>Дан файл inputfiletask6v2.txt который может находится в любом месте на диске. загрузить файл в textboxin через openfiledialog. вывести второе слово каждой строки в результирующею строку и вывести ее в textboxout.</value>
+    <value>Дан файл InPutFileTask6V2.txt который может находится в любом месте на диске. Загрузить файл в textBoxIn через openFileDialog. Вывести второе слово каждой строки в результирующею строку и вывести ее в textBoxOut.</value>
   </data>
   <metadata name="openFileDialogTask_SVV.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
