@@ -75,7 +75,7 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task6.V2
             this.buttonHelp_SVV.Image = ((System.Drawing.Image)(resources.GetObject("buttonHelp_SVV.Image")));
             this.buttonHelp_SVV.Location = new System.Drawing.Point(684, 6);
             this.buttonHelp_SVV.Name = "buttonHelp_SVV";
-            this.buttonHelp_SVV.Size = new System.Drawing.Size(103, 72);
+            this.buttonHelp_SVV.Size = new System.Drawing.Size(103, 75);
             this.buttonHelp_SVV.TabIndex = 2;
             this.toolTipTask_SVV.SetToolTip(this.buttonHelp_SVV, "Сведение о программе\r\n");
             this.buttonHelp_SVV.UseVisualStyleBackColor = false;
@@ -84,11 +84,12 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task6.V2
             // buttonDone_SVV
             // 
             this.buttonDone_SVV.BackColor = System.Drawing.SystemColors.Control;
+            this.buttonDone_SVV.Enabled = false;
             this.buttonDone_SVV.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonDone_SVV.Image = ((System.Drawing.Image)(resources.GetObject("buttonDone_SVV.Image")));
             this.buttonDone_SVV.Location = new System.Drawing.Point(118, 6);
             this.buttonDone_SVV.Name = "buttonDone_SVV";
-            this.buttonDone_SVV.Size = new System.Drawing.Size(105, 69);
+            this.buttonDone_SVV.Size = new System.Drawing.Size(105, 75);
             this.buttonDone_SVV.TabIndex = 1;
             this.toolTipTask_SVV.SetToolTip(this.buttonDone_SVV, "Подсчитывает количество слов в строке, и если их больше 2, \r\nто выводит каждое вт" +
         "орое слово из строки в результатирующую строку\r\n\r\n");
@@ -102,7 +103,7 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task6.V2
             this.buttonOpenFile_SVV.Image = ((System.Drawing.Image)(resources.GetObject("buttonOpenFile_SVV.Image")));
             this.buttonOpenFile_SVV.Location = new System.Drawing.Point(9, 6);
             this.buttonOpenFile_SVV.Name = "buttonOpenFile_SVV";
-            this.buttonOpenFile_SVV.Size = new System.Drawing.Size(103, 69);
+            this.buttonOpenFile_SVV.Size = new System.Drawing.Size(103, 75);
             this.buttonOpenFile_SVV.TabIndex = 0;
             this.toolTipTask_SVV.SetToolTip(this.buttonOpenFile_SVV, "Открыть файл \r\nВыберите нужный файл для обработки\r\n");
             this.buttonOpenFile_SVV.UseVisualStyleBackColor = false;

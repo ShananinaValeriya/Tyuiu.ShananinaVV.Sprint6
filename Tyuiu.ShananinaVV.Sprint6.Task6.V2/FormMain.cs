@@ -18,7 +18,7 @@ namespace Tyuiu.ShananinaVV.Sprint6.Task6.V2
         public FormMain()
         {
             InitializeComponent();
-            buttonDone_SVV.Enabled = false;
+            //buttonDone_SVV.Enabled = false;
         }
         string openFilePath;
         DataService ds = new DataService();
